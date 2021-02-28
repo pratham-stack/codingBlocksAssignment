@@ -1,0 +1,29 @@
+p{
+    font-size: 25px;
+    color: #fa1e0e;
+    background-color: #03506f;
+    padding-left:20px;
+    margin: 1px 20px;
+}
+
+h4{
+    position: sticky;
+    background-color: palevioletred;
+    top: 2px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+h1::before{
+    content: "\2706";
+}
+
+p:hover{
+   background-color: #90CAF9;
+   font-size: 30px;
+   padding-left: 30px;
+}
+
+body{
+    background-color: #350b40;
+}
