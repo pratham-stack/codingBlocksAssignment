@@ -1,0 +1,108 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+   background-color: #03071e;
+   color: #fff;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 23px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav ul li {
+   padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+nav ul li:hover {
+    background-color:aquamarine;
+    border-radius: 32px;
+    cursor: pointer;
+}
+#placeHolder{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.hamburger{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.multiple-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    height: 270px;
+    width: 250px;
+}
+.card div{
+    padding: 2px;
+}
+.card div img{
+    width: 100%;
+}
+
+.info {
+    text-align: center;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+footer{
+    padding: 8px;
+    color: whitesmoke;
+}
+
+.copy{
+    width: 100%;
+    text-align: center;
+}
+
+.footerContainer{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fuddu{
+    width: 250px;
+}
+
+.footerOption:hover{
+    cursor: pointer;
+}
+
